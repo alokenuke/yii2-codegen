@@ -1,0 +1,21 @@
+{
+    "name": "alokenuke/yii2-codegen",
+    "description": "A complete extension for generating QR or bar codes through Yii2 extension.",
+    "type": "library",
+    "keywords": ["yii2","extension","barcode generator"," qr code generator"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Enuke Software",
+            "email": "info@alokenukeware.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "alokenuke\\barcodegen\\": ""
+        }
+    }
+}
